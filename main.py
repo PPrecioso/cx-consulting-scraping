@@ -18,6 +18,8 @@ driver = webdriver.Chrome(service=service, options=options)
 
 print("Acessando a página...")
 driver.get(URL)
+
+# Aguarda carregar todo o conteúdo dinâmico
 time.sleep(5)
 
 # Captura o HTML da página e fecha o navegador
@@ -30,6 +32,7 @@ servicos = soup.select("div.bg-white\\/5")
 if not servicos:
     print("Nenhum serviço encontrado. Verifique os seletores.")
 else:
+    print(f"\n{Fore.BLUE}=== CX Consulting ==={Style.RESET_ALL}\n")
     print(f"\n{Fore.BLUE}=== Serviços ==={Style.RESET_ALL}\n")
     for servico in servicos:
 
