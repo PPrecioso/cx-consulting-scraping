@@ -7,9 +7,9 @@ Com ele, você pode visualizar rapidamente tudo que a empresa disponibiliza de f
 
 ##  O que o projeto faz
 -  Acessa automaticamente o site da CX Consulting.  
--  Coleta os **títulos dos serviços**.  
--  Captura as **descrições detalhadas** de cada serviço.  
--  Lista todas as **funcionalidades associadas**.  
+-  Coleta os títulos dos serviços.  
+-  Captura as descrições de cada serviço.  
+-  Lista todas as funcionalidades associadas.  
 -  Exibe tudo de forma direta no terminal.  
 
 ---
@@ -36,7 +36,7 @@ CX-Consulting-Scraper/
 
 ## ⚙️ Como configurar
 
-### 1️⃣ Criar e ativar o ambiente virtual
+### Criar e ativar o ambiente virtual
 ```bash
 python -m venv venv
 .\venv\Scripts\Activate.ps1   # Windows
@@ -45,13 +45,13 @@ source venv/bin/activate      # Linux/Mac
 ```
 ---
 
-### 2️⃣ Instalar as dependências
+### Instalar as dependências
 ```bash
 pip install -r requirements.txt
 ```
 ---
 
-### ▶️ Como executar
+## ▶️ Como executar
 ```bash
 python main.py
 ```
