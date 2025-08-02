@@ -31,6 +31,7 @@ CX-Consulting-Scraper/
 ├── requirements.txt     # Dependências do projeto
 └── README.md            # Documentação
 
+---
 
 ## ⚙️ Como configurar
 
@@ -41,17 +42,25 @@ python -m venv venv
 # ou
 source venv/bin/activate      # Linux/Mac
 
+---
+
 ### 2️⃣ Instalar as dependências
 ```bash
 pip install -r requirements.txt
+
+---
 
 ### 3️⃣ Baixar o WebDriver
 - Baixe o [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/).
 - Coloque o executável no **PATH** do sistema ou na pasta do projeto.
 
+---
+
 ### ▶️ Como executar
 ```bash
 python main.py
+
+---
 
 Se tudo estiver certo, você verá algo assim no terminal:
 
