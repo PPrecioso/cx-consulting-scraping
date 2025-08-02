@@ -1,6 +1,6 @@
 # CX Consulting Scraper
 
-This project was developed to automate the collection and display of services, detailed descriptions and features offered on the website of [CX Consulting](https://www.cxconsulting.com.br/).  
+This project was developed to automate the collection and display of services and detailed descriptions offered on the website of [CX Consulting](https://www.cxconsulting.com.br/).  
 Additionally, it allows you to automatically translate all information into **Portuguese, English or Spanish**, making it easier to view in different languages directly on the terminal.
 ---
 
@@ -8,8 +8,7 @@ Additionally, it allows you to automatically translate all information into **Po
 
 - Automatically accesses the CX Consulting website.
 - Collects the titles of each service.
-- Captures detailed descriptions.
-- Lists all the features of each service.
+- Captures and lists detailed descriptions.
 - Translates all information into the selected language (**Portuguese, English, or Spanish**).
 - Displays everything in a formatted and organized manner on the terminal.
   
