@@ -19,18 +19,7 @@ Com ele, você pode visualizar rapidamente tudo que a empresa disponibiliza de f
 - [Selenium](https://pypi.org/project/selenium/)  
 - [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)  
 - [Requests](https://pypi.org/project/requests/)  
-- ChromeDriver ou EdgeDriver  
-
----
-
-## 📂 Estrutura do projeto
-```plaintext
-CX-Consulting-Scraper/
-│
-├── main.py              # Script principal
-├── requirements.txt     # Dependências do projeto
-└── README.md            # Documentação
-```
+  
 
 ---
 
