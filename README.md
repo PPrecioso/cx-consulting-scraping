@@ -70,6 +70,7 @@ Accessing the page...
     • Allocation of validated specialists (Dev, QA, PO, UX, Cloud, Data, etc.)
     • Flexible models: remote, hybrid or on-site as needed
     • Dedicated or shared management, with delivery and efficiency KPIs
+...
 --------------------------------------------------
 ```
 
