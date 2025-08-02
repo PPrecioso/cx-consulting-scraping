@@ -10,7 +10,7 @@ Com ele, você pode visualizar rapidamente tudo que a empresa disponibiliza de f
 -  Coleta os **títulos dos serviços**.  
 -  Captura as **descrições detalhadas** de cada serviço.  
 -  Lista todas as **funcionalidades associadas**.  
--  Exibe tudo de forma clara direto no terminal.  
+-  Exibe tudo de forma direta no terminal.  
 
 ---
 
@@ -49,12 +49,6 @@ source venv/bin/activate      # Linux/Mac
 ```bash
 pip install -r requirements.txt
 ```
----
-
-### 3️⃣ Baixar o WebDriver
-- Baixe o [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/).
-- Coloque o executável no **PATH** do sistema ou na pasta do projeto.
-
 ---
 
 ### ▶️ Como executar
