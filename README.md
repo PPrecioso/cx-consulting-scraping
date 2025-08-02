@@ -30,6 +30,7 @@ CX-Consulting-Scraper/
 ├── main.py              # Script principal
 ├── requirements.txt     # Dependências do projeto
 └── README.md            # Documentação
+```
 
 ---
 
@@ -41,13 +42,13 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1   # Windows
 # ou
 source venv/bin/activate      # Linux/Mac
-
+```
 ---
 
 ### 2️⃣ Instalar as dependências
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ### 3️⃣ Baixar o WebDriver
@@ -59,14 +60,14 @@ pip install -r requirements.txt
 ### ▶️ Como executar
 ```bash
 python main.py
-
+```
 ---
 
 Se tudo estiver certo, você verá algo assim no terminal:
 
 ```plaintext
 Acessando a página...
-
+```
 === Serviços ===
 
 📌 Outsourcing de TI  
