@@ -75,6 +75,6 @@ Accessing the page...
 
 ## 💡 Observações
 
- • O scraper utiliza Selenium, então abrirá o Chrome em modo headless (sem janela).
- • O tempo de carregamento pode variar dependendo da sua conexão com a internet.
- • A tradução é feita automaticamente usando Deep-Translator.
+- O scraper utiliza Selenium, então abrirá o Chrome em modo headless (sem janela).
+- O tempo de carregamento pode variar dependendo da sua conexão com a internet.
+- A tradução é feita automaticamente usando Deep-Translator.
