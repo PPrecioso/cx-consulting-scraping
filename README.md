@@ -1,54 +1,55 @@
 # CX Consulting Scraper
 
-Este projeto foi desenvolvido para automatizar a coleta e exibição dos serviços, descrições detalhadas e características oferecidos no site da [CX Consulting](https://www.cxconsulting.com.br/).  
-Além disso, ele permite traduzir automaticamente todas as informações para **Português, Inglês ou Espanhol**, facilitando a visualização em diferentes idiomas diretamente no terminal.
-
+This project was developed to automate the collection and display of services, detailed descriptions and features offered on the website of [CX Consulting](https://www.cxconsulting.com.br/).  
+Additionally, it allows you to automatically translate all information into **Portuguese, English or Spanish**, making it easier to view in different languages directly on the terminal.
 ---
 
-## ✨ O que o projeto faz
-- Acessa automaticamente o site da CX Consulting.  
-- Coleta os títulos de cada serviço.  
-- Captura as descrições detalhadas.  
-- Lista todas as características de cada serviço.  
-- Traduz todas as informações para o idioma selecionado (**Português, Inglês ou Espanhol**).  
-- Exibe tudo de forma formatada e organizada no terminal.  
+## ✨ What the project does
 
+- Automatically accesses the CX Consulting website.
+- Collects the titles of each service.
+- Captures detailed descriptions.
+- Lists all the features of each service.
+- Translates all information into the selected language (**Portuguese, English, or Spanish**).
+- Displays everything in a formatted and organized manner on the terminal.
+  
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Technologies used
 - [Python 3.13+](https://www.python.org/)  
-- [Selenium](https://pypi.org/project/selenium/) – Automação do navegador  
-- [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/) – Extração de dados do HTML  
-- [Colorama](https://pypi.org/project/colorama/) – Exibição colorida no terminal  
-- [Deep-Translator](https://pypi.org/project/deep-translator/) – Tradução de texto  
-- [Google Chrome + ChromeDriver](https://chromedriver.chromium.org/) – Navegador e driver para o Selenium  
+- [Selenium](https://pypi.org/project/selenium/) – Browser automation
+- [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/) – HTML data extraction
+- [Colorama](https://pypi.org/project/colorama/) – Color display in the terminal
+- [Deep-Translator](https://pypi.org/project/deep-translator/) – Text translation
+- [Google Chrome + ChromeDriver](https://chromedriver.chromium.org/) – Browser and driver for Selenium 
 
 ---
 
-## ⚙️ Como configurar
+## ⚙️ How to configure
 
-### Criar e ativar o ambiente virtual
+### Create and activate the virtual environment
+
 ```bash
 python -m venv venv
 
 .\venv\Scripts\Activate.ps1   # Windows
-# ou
+# or
 source venv/bin/activate      # Linux/Mac
 ```
 
-### Instalar as dependências
+### Install the dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-## ▶️ Executando
+## ▶️ Running
 ```bash
 python main.py
 ```
 
 ---
 
-**No terminal, você poderá escolher o idioma:**
+**In the terminal, you can choose the language:**
 
 ```bash
 Select a language / Selecione um idioma / Seleccione un idioma:
@@ -57,7 +58,7 @@ Select a language / Selecione um idioma / Seleccione un idioma:
 3 - Spanish
 ```
 
-**Após selecionar, o programa exibirá algo como:**
+**After selecting, the program will display something like:**
 
 ```bash
 Accessing the page...
@@ -74,8 +75,8 @@ Accessing the page...
 --------------------------------------------------
 ```
 
-## 💡 Observações
+## 💡 Notes
 
-- O scraper utiliza Selenium, então abrirá o Chrome em modo headless (sem janela).
-- O tempo de carregamento pode variar dependendo da sua conexão com a internet.
-- A tradução é feita automaticamente usando Deep-Translator.
+- The scraper uses Selenium, so it will open Chrome in headless mode (without a window).
+- Loading time may vary depending on your internet connection.
+- Translation is done automatically using Deep-Translator.
