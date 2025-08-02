@@ -64,8 +64,8 @@ Acessando a página...
 
 === Serviços ===
 
-📌 Outsourcing de TI  
-📝 Times sob demanda, com alta performance técnica e cultural para acelerar a entrega e escalar sua operação.  
+Outsourcing de TI  
+ Times sob demanda, com alta performance técnica e cultural para acelerar a entrega e escalar sua operação.  
   ➤ Funcionalidades:
     - Alocação de especialistas validados (Dev, QA, PO, UX, Cloud, Data, etc.)
     - Modelos flexíveis: remoto, híbrido ou presencial conforme sua necessidade
