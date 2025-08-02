@@ -46,7 +46,7 @@ python main.py
 ```
 ---
 
-Quando rodar você verá algo assim no terminal:
+Ao rodar você verá algo assim no terminal:
 
 ```plaintext
 Acessando a página...
